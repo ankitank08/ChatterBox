@@ -6,7 +6,7 @@
 
 ## Deployment
 
-The application is deployed on Render and accessible via [Chit Chat Live](https://chatterbox-wxdm.onrender.com/).
+The application is deployed on **Render** and accessible via [Chit Chat Live](https://chit-chat-9o71.onrender.com).
 
 ---
 
@@ -29,7 +29,7 @@ The application is deployed on Render and accessible via [Chit Chat Live](https:
 
 ## How to Access the Application
 
-1. Visit the deployment link: [Chit Chat Live](https://chatterbox-wxdm.onrender.com/).
+1. Visit the deployment link: [Chit Chat Live](https://chit-chat-9o71.onrender.com/).
 2. Enter your name to join the chatroom.
 3. Start chatting in real-time with other users!
 
@@ -50,8 +50,8 @@ Follow these steps to set up the application on your local machine:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/ankitank08/ChatterBox.git
-   cd ChatterBox
+   git clone https://github.com/ankitank08/Chit-Chat.git
+   cd Chit-Chat
    ```
 
 2. **Install dependencies**:
