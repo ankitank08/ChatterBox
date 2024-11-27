@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <title>Real-Time Chat</title>
+</head>
+
+<body>
+    <header>
+        <h1>Chit Chat</h1>
+    </header>
+    <main>
+        <section id="name-container">
+            <label for="username">Enter your name:</label>
+            <input type="text" id="username" placeholder="Enter your name" />
+            <button id="name-submit">Submit</button>
+        </section>
+        <section class="chat-container" style="display: none">
+            <div class="chat-header">Real-Time Chat</div>
+            <div class="chat-messages" id="messages"></div>
+            <div class="chat-input">
+                <input type="text" id="messageInput" placeholder="Type a message..." />
+                <button onclick="sendMessage()">Send</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Real-Time Chat</p>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+
+</html>

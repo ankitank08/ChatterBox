@@ -1,0 +1,154 @@
+/* General Styles */
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f4f8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: #333;
+}
+
+header {
+  background-color: #007bff;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+/* Chat Container */
+.chat-container {
+  width: 100%;
+  max-width: 700px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.chat-header {
+  background: #007bff;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+.chat-messages {
+  flex-grow: 1;
+  padding: 20px;
+  overflow-y: auto;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  height: 400px;
+}
+
+.chat-messages div {
+  margin-bottom: 15px;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.chat-messages .my-message {
+  text-align: right;
+  background-color: #e1f5fe;
+}
+
+.chat-messages .other-message {
+  text-align: left;
+  background-color: #f1f1f1;
+}
+
+.chat-input {
+  display: flex;
+  padding: 10px;
+  background-color: #fff;
+  border-top: 1px solid #ddd;
+}
+
+.chat-input input {
+  flex-grow: 1;
+  padding: 12px;
+  border: none;
+  border-radius: 25px;
+  font-size: 1em;
+  outline: none;
+  margin-right: 10px;
+  transition: background-color 0.2s;
+}
+
+.chat-input input:focus {
+  background-color: #e3f2fd;
+}
+
+.chat-input button {
+  padding: 12px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.chat-input button:hover {
+  background-color: #0056b3;
+}
+
+#name-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+#name-container label {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+#name-container input {
+  padding: 12px;
+  border-radius: 25px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+
+#name-container button {
+  padding: 12px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 1.1em;
+}
+
+#name-container button:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  margin-top: 20px;
+  font-size: 1em;
+  color: #777;
+}
+
+footer p {
+  margin: 0;
+}
